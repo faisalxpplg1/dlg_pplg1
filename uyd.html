@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var motor = {
+            nama :"honda supra 100",
+            warna : "hitam",
+            jumlah_cc : 120,
+            //tahun_diluncurkan :"1997",
+            mesin : {
+                ukuran_struk :"2mm 25mm 2mm",
+                ukuran_langkah :"63.5mm",
+                jumlah_slinder :1
+            },
+
+            starter : function() {
+                document.write("motor nyala lah");
+            },
+            spek: function() {
+                document.write("suka balap")
+            },
+        }
+
+        document.write(`nama : ${motor.jumlah_cc} <br>`);
+        document.write(`nama : ${mesin.ukuran_langkah.ukuran_struk} <br>`);
+        document.write(`nama : ${starter.spek}`);
+    </script>
+</body>
+</html>
